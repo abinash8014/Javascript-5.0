@@ -30,4 +30,57 @@
  # taks :
  1. Difference between let and var.
  2. Difference between var and const.
- 3. What do you mean by haisting(when we don't declare value of variables but it execute the code).
+ 3. What do you mean by hoisting(when we don't declare value of variables but it execute the code).
+
+ ## Rules of Variable :
+
+  - variables names are case sesitive "a" "A" are different.
+  - only letter, digit , underscore and $ is allowed.
+  - only letter, underscore and $ should be first character.
+  - reserver words can't be variable names.
+
+## data types in javascript :
+
+- Datatype is an attribute associated with a piece of data that tells a computer system how to interprete its value.
+- in datatype we used typeOf operator to know what type of data it is.
+- Mainly in javascript there are two types of data types ..
+# 1. primitive :
+- In javascript there are 7 types of primitive data types.
+# a. Number : number are the type of data type those it contain some numerical value.
+# b. String : String is a type of data type that can hold a set of character like name..
+# c. Boolean : In boolean data type we get boolean value like true or false.
+# d. undefined : In undefined data type the data is not define so that it will show undefined.
+# e. null : in this data type we get null for the means nothing.
+# f. Bigint : In bigint we will get bigger integer .
+# g. Symbol : In symbol data type we get whole symbol as well as the value we get for the data type.
+
+# 2. Non-primitve or  reference :
+
+- non-primitive data types are the type of data that can hold multiple items in a single time.
+- non-primitive data types are :-object , array , function.
+# 1.object : object is a non-primitive data types which can hold items in one single entity.
+- mainly objects are working on (key:value) pair.
+- the left hand side is our keys and right hand side are the values of the following object.
+
+ex -
+prathama ={
+    college : "giet",
+    address : "BBSR",
+    age : 48,
+    salary : 45000,
+    carrier : "Good", 
+}
+console.log(prathama)
+console.log(prathama["address"])
+console.log(prathama["salary"])
+
+## Operator in js :
+ - operator are key features to do some task or operate some task.
+ - ex :A + B
+ - in the above ex A & B are the operands and the + is the opertaor..
+ # 1.Arithematic operator :-
+ (+,-,*,/,%)
+ exponentiation -> **
+ increment -> ++
+ decrement -> --
+ 
