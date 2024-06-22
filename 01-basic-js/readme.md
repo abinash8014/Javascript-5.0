@@ -81,6 +81,70 @@ console.log(prathama["salary"])
  # 1.Arithematic operator :-
  (+,-,*,/,%)
  exponentiation -> **
+
+ # 2.Unary operator :-
  increment -> ++
  decrement -> --
+
+# 3.assignment operator :-(assign some values to the variables)
+(=,+=,-=,*=,/=,**=)
+
+# 4.Comparison operator :
+ It gives the result either in true or false..
+equal to -> ==
+not equal to -> !=
+equal to and type -> ===
+not equal to and type -> !==
+(>,<,<=,>=)
+
+# 5.Logical operator :
+Checks the logic of the operator(true/false)
+Logical AND -> &&
+ Table of AND operator is:
+ T+T =T
+ T+F =F
+ F+T =F
+ F+F =F
+Logical OR -> ||
+ Table of OR oprator :
+ T+T = T
+ T+F = T
+ F+T = T
+ F+F = F
+Logical NOT ->
+ Table of NOT operator :
+ T = F
+ F = T
+
+Conditional Statement :
+- To implement some condition in the code
+- There are 3 types of conditional statements are there 
+1. if condition 
+   - If condition is true then statement is true otherwise false.
+   syntax :-
+   if(condition){
+    statements;
+   }
+2. if-else condition :-
+   - if condition is true then block executed otherwise it terminate to else condition.
+  syntax :-
+  if(condition){
+    statement;
+  }
+  else{
+    statements;
+  }
+3. else-is condition :-
+   - It checks the condition multiple times where condition is true.
+   syantax :-
+   if(condition){
+      statements;
+   } else if(condtion){
+      statements;
+   } else{
+      statements; 
+   } 
+   
+ 
+
  
