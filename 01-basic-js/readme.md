@@ -144,6 +144,67 @@ Conditional Statement :
    } else{
       statements; 
    } 
+
+## Loops :-
+
+- Loops are used to execute a piece of code again & again.
+
+# 1. For Loop :-
+syntax - 
+for(initialization,condition,updation){
+     statement
+}
+ex-
+for(let i = 1; i <= 5; i++){
+     console.log("web bocket)
+}
+
+# 2. While Loop :-
+syntax - 
+while(condition){
+     statement
+     updation
+}
+
+# 3. Do-While Loop :-
+syntax - 
+do{
+     statement
+     updation
+}while (condition);
+
+# 4. For-Of Loop :- It iterate on string and array.
+
+# 5. For-in Loop :- It iterate over objects(key-value pair)
+syntax - 
+for(let key in objvar){
+     statement
+}
+
+* home work *
+1. print all even number from 0 to 100
+2. create a game you start with any random game number, ask the user to keep guessing the game number untill the user enters correct value.
+
+   # String in JS :-
+
+   - String is a sequence of caharacters used to represent text.
+   - create a string -> let str = "web bocket"
+   - string length -> str.length
+   - string indexing -> str[0],str[1],str[2]....
+
+   # Template literals in js :
+
+   - a way to have embedded expression in string .
+   - it's denoted on ` `  i.e `today is a great day`.
+
+   # String interpolation :
+
+   - to create strings by doing substitution of placeholders.
+   - ex -> `string text ${expression} string text`
+
+
+
+
    
  
 
