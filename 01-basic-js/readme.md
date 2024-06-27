@@ -214,7 +214,7 @@ for(let key in objvar){
    4. str.slice(start,end) :- 
    5. str1.conact(str2) :- it combine one string with another string.
    6. str.replace(searchVal,newVal) :This method replace the old char to a new char as per the user requirement.
-   7. str.charAt(idx) :- This method is used to show the characater we wants to see.
+   7. str.charAt(idx) :- This method is used to show the characater the user  wants to see.
 
 
 
