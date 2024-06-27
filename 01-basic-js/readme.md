@@ -202,6 +202,20 @@ for(let key in objvar){
    - to create strings by doing substitution of placeholders.
    - ex -> `string text ${expression} string text`
 
+   # escape symbol :-
+   \n - new line.
+   \t - new tab.
+
+   # String methods :-
+   - these are built in  functions to manipulate a string .
+   1. str.toUpperCase() :- it converts the lowercase string to uppercase strin.
+   2. str.toLowerCase() :- it converts the uppercase string to lowercase string.
+   3. str.trim() :- it trims the leading and trailing spaces inside the string.
+   4. str.slice(start,end) :- 
+   5. str1.conact(str2) :- it combine one string with another string.
+   6. str.replace(searchVal,newVal) :This method replace the old char to a new char as per the user requirement.
+   7. str.charAt(idx) :- This method is used to show the characater we wants to see.
+
 
 
 
