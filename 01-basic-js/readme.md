@@ -216,10 +216,28 @@ for(let key in objvar){
    6. str.replace(searchVal,newVal) :This method replace the old char to a new char as per the user requirement.
    7. str.charAt(idx) :- This method is used to show the characater the user  wants to see.
 
+   # Arrays in java :-
+   - collection of items.
+   ex - 
+   let heroes = ["ironman","thor","superman","hulk","adam"];
+
+   let marks =[89,56,98,23,90];
+
+   let info = [raul",89,"delhi",90];
+
+   - array index starting from 0.
+   ex -
+   arr[0],arr[1].....
 
 
+   # Looping over the array :-
+   - print the below element in one by one.
+   - let heroes = ["ironman","thor","superman","hulk","adam"]
+   - we will do it through loops.
 
-   
- 
+   # practice question :-
+   1.For a given array with marks of students -> [89,97,44,37,76,60] find the average marks of the entire class .
+   2.for a given array with prices of 5 items -> [250,645,300,900,50] .All items have an offer of 105 off on them.Change the array to store the final price afterapplying offer. 
+
 
  
